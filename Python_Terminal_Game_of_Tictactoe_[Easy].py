@@ -118,7 +118,8 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
             else: 
                 blueprint = user_shape + blueprint[1:]
                 round1.lt(blueprint)
-                blueprint = opponent_move(blueprint)
+                if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
+                    blueprint = opponent_move(blueprint)
         elif location_input == 'mt' and blueprint[1] != 'x' and blueprint[2] != 'o':
             if blueprint.count('-') == 1:
                 blueprint = blueprint[:1] + user_shape + blueprint[2:]
@@ -126,7 +127,8 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
             else:
                 blueprint = blueprint[:1] + user_shape + blueprint[2:]
                 round1.mt(blueprint)
-                blueprint = opponent_move(blueprint)
+                if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
+                    blueprint = opponent_move(blueprint)
         elif location_input == 'rt' and blueprint[2] != 'x' and blueprint[2] != 'o':
             if blueprint.count('-') == 1:
                 blueprint = blueprint[:2] + user_shape + blueprint[3:]
@@ -134,7 +136,8 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
             else:
                 blueprint = blueprint[:2] + user_shape + blueprint[3:]
                 round1.rt(blueprint)
-                blueprint = opponent_move(blueprint)
+                if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
+                    blueprint = opponent_move(blueprint)
         elif location_input == 'lm' and blueprint[3] != 'x' and blueprint[3] != 'o':
             if blueprint.count('-') == 1:
                 blueprint = blueprint[:3] + user_shape + blueprint[4:]
@@ -142,7 +145,8 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
             else:
                 blueprint = blueprint[:3] + user_shape + blueprint[4:]
                 round1.lm(blueprint)
-                blueprint = opponent_move(blueprint)
+                if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
+                    blueprint = opponent_move(blueprint)
         elif location_input == 'mm' and blueprint[4] != 'x' and blueprint[4] != 'o':
             if blueprint.count('-') == 1:
                 blueprint = blueprint[:4] + user_shape + blueprint[5:]
@@ -150,7 +154,8 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
             else:
                 blueprint = blueprint[:4] + user_shape + blueprint[5:]
                 round1.mm(blueprint)
-                blueprint = opponent_move(blueprint)
+                if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
+                    blueprint = opponent_move(blueprint)
         elif location_input == 'rm' and blueprint[5] != 'x' and blueprint[5] != 'o':
             if blueprint.count('-') == 1:
                 blueprint = blueprint[:5] + user_shape + blueprint[6:]
@@ -158,7 +163,8 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
             else:
                 blueprint = blueprint[:5] + user_shape + blueprint[6:]
                 round1.rm(blueprint)
-                blueprint = opponent_move(blueprint)
+                if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
+                    blueprint = opponent_move(blueprint)
         elif location_input == 'lb' and blueprint[6] != 'x' and blueprint[6] != 'o':
             if blueprint.count('-') == 1:
                 blueprint = blueprint[:6] + user_shape + blueprint[7:]
@@ -166,7 +172,8 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
             else:
                 blueprint = blueprint[:6] + user_shape + blueprint[7:]
                 round1.lb(blueprint)
-                blueprint = opponent_move(blueprint)
+                if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
+                    blueprint = opponent_move(blueprint)
         elif location_input == 'mb' and blueprint[7] != 'x' and blueprint[7] != 'o':
             if blueprint.count('-') == 1:
                 blueprint = blueprint[:7] + user_shape + blueprint[8:]
@@ -174,7 +181,8 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
             else:
                 blueprint = blueprint[:7] + user_shape + blueprint[8:]
                 round1.mb(blueprint)
-                blueprint = opponent_move(blueprint)
+                if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
+                    blueprint = opponent_move(blueprint)
         elif location_input == 'rb' and blueprint[8] != 'x' and blueprint[8] != 'o':
             if blueprint.count('-') == 1:
                 blueprint = blueprint[:8] + user_shape + blueprint[9:]
@@ -182,7 +190,8 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
             else:
                 blueprint = blueprint[:8] + user_shape + blueprint[9:]
                 round1.rb(blueprint)
-                blueprint = opponent_move(blueprint)
+                if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
+                    blueprint = opponent_move(blueprint)
         else:
                 print('Location already occupied. Try again.')
                 continue      

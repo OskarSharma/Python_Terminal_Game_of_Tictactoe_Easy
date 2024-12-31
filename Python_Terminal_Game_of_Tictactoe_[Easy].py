@@ -120,7 +120,7 @@ while blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'x
                 round1.lt(blueprint)
                 if blueprint[:3] != 'xxx' and blueprint[:3] != 'ooo' and blueprint[3:6] != 'xxx' and blueprint[3:6] != 'ooo' and blueprint[6:] != 'xxx' and blueprint[6:] != 'ooo' and blueprint[0:9:3] != 'xxx' and blueprint[0:9:3] != 'ooo' and blueprint[1:9:3] != 'xxx' and blueprint[1:9:3] != 'ooo' and blueprint[2:9:3] != 'xxx' and blueprint[2:9:3] != 'ooo' and blueprint[0:9:4] != 'xxx' and blueprint[0:9:4] != 'ooo' and blueprint[2:8:2] != 'xxx' and blueprint[2:8:2] != 'ooo' and '-' in blueprint:
                     blueprint = opponent_move(blueprint)
-        elif location_input == 'mt' and blueprint[1] != 'x' and blueprint[2] != 'o':
+        elif location_input == 'mt' and blueprint[1] != 'x' and blueprint[1] != 'o':
             if blueprint.count('-') == 1:
                 blueprint = blueprint[:1] + user_shape + blueprint[2:]
                 round1.mt(blueprint)
